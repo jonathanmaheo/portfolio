@@ -24,10 +24,17 @@ export default function App() {
         <div className="logo">JM</div>
 
         <div className="links">
-          <a href="#about">À propos</a>
+
+          <ul className="ul-navbar">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          {/* <a href="#about">À propos</a>
           <a href="#skills">Compétences</a>
           <a href="#projects">Projets</a>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact</a> */}
         </div>
       </nav>
 
@@ -103,7 +110,9 @@ Le projet reproduit un contexte métier réel avec des fonctionnalités complèt
         <h2>Contact</h2>
 
         <div className="card">
-          <p>📧 jonathanmaheo@outlook.fr</p>
+          <p>
+            📧 <a className="white" href="mailto:jonathanmaheo@outlook.fr">jonathanmaheo@outlook.fr</a>
+          </p>
 
           <div className="cta">
             <a className="btn" href="https://github.com">GitHub</a>
