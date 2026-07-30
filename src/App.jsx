@@ -154,7 +154,6 @@ export default function App() {
             {projects.map((project) => (
               <article className="project-card" key={project.title}>
                 <div className="project-image">
-                  <span>{project.title}</span>
                 </div>
 
                 <div className="project-content">
